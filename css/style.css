@@ -1,0 +1,269 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    text-decoration: none;
+}
+
+.arrow{
+    position: fixed;
+    right: 10px;
+    bottom: 5px;
+    color: #123;
+    font-size: 40px;
+}
+
+.arrow:hover{
+    transition: 1s;
+    color: blue;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../imgs/image-header.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    align-items: center;
+    font-family: cursive;
+    font-weight: bolder;
+    color: white;
+}
+
+nav > h2{
+    font-size: 25px;
+    margin-right: 100px;
+}
+
+nav > ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav > ul > .ser{
+    border: 1px solid white;
+    border-radius: 3em;
+    background-color: #f5f5f54b;
+}
+
+nav > ul > li{
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+nav > ul > li:hover{
+    border: 1px solid white;
+    border-radius: 3em;
+    background-color: #f5f5f54b;
+}
+
+.txt{ 
+    position: relative;
+    text-align: center;
+    top: 15%;
+}
+
+.txt > h1{
+    font-size: 55px;
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.div{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    overflow-y: hidden;
+}
+
+.div > .words{
+    width: 650px;
+    padding: 50px 40px 50px 100px;
+    overflow-y: hidden;
+}
+
+.div > .words > h2{
+    font-family: cursive;
+    font-weight: bold;
+    color: #123;
+    font-size: 30px;
+    margin: 30px 0px;
+}
+
+.div > .words > p{
+    font-family: sans-serif;
+    color: #666;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.div > .words > a{
+    font-family: fantasy;
+    font-size: 20px;
+    color: black;
+}
+
+.div > .words > a:hover{
+    border-bottom: solid 4px yellow;
+    transition: 0.5s;
+}
+
+.div > img{
+    width: 800px;
+}
+
+.div > .img-1{
+    width: 50%;
+    height: 100%;
+    background-image: url("../imgs/image-graphic-design.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.font{
+    position: relative;
+    top: 50%;
+}
+
+.font > h2{
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.font > p{
+    font-size: 15px;
+    font-family: cursive;
+    color: #666;
+}
+
+.div > .img-2{
+    width: 50%;
+    height: 100%;
+    background-image: url("../imgs/image-photography.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.div-2{
+    padding: 150px 50px;
+}
+
+.div-2 > h2{
+    text-align: center;
+    color: #808080;
+    font-size: 30px;
+}
+
+.div-2 > .cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.div-2 > .cards > .card{
+    width: 440px;
+    text-align: center;
+}
+
+.div-2 > .cards > .card > img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.div-2 > .cards > .card > p{
+    margin-top: 50px;
+    font-family: cursive;
+    color: #888880;
+    line-height: 30px;
+}
+
+.div-2 > .cards > .card > h3{
+    margin-top: 50px;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+.div-2 > .cards > .card > h4{
+    font-family: sans-serif;
+    color: #808080;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.imags{
+    display: flex;
+}
+
+.imags > img{
+    width: 25%;
+}
+
+.contact{
+    background-color: #a6e9c3;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links{
+    text-align: center;
+    color: #808080;
+    font-family: sans-serif;
+    padding: 50px 15px;
+}
+
+.links > h2{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.links > ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: 35px 0px;
+}
+
+.links > ul > li{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.links > ul > li:hover{
+    color: white;
+}
+
+.links > .icons > i{
+    font-size: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.links > .icons > i:hover{
+    color: blue;
+    cursor: pointer;
+}
